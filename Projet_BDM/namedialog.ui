@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NameDialog</class>
+ <widget class="QDialog" name="NameDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>571</width>
+    <height>370</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 124, 0)</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item alignment="Qt::AlignHCenter">
+    <widget class="QLabel" name="label_2">
+     <property name="styleSheet">
+      <string notr="true">font-size: 20px;</string>
+     </property>
+     <property name="text">
+      <string>Welcome to PalmPoser. Please enter your username.</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Username</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="entryname">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item alignment="Qt::AlignRight">
+    <widget class="QPushButton" name="enterButton">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(82, 103, 255);</string>
+     </property>
+     <property name="text">
+      <string>Enter</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

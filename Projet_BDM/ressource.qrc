@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/tex"/>
+    <qresource prefix="/">
+        <file>img/back1.jpg</file>
+        <file>img/back2.jpg</file>
+        <file>img/Unknown-1.jpeg</file>
+        <file>img/logo.png</file>
+        <file>img/telecom.png</file>
+    </qresource>
+</RCC>
